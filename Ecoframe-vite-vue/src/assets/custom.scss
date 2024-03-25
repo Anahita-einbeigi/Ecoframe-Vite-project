@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$theme-colors: (
+  "primary": #025162,
+  "secondary": #d3d3d5,
+  "success": #54b28e,
+  "info": #3f7679,
+  "warning": #ac5b2c,
+  "danger": #b12f56,
+  "light": #f4f2f2,
+  "dark": #2f2f2f,
+  "white": #ffffff,
+  "wellow1": #d7b806,
+  "wellow2": #f2e641,
+  "wellow3": #f2eb88,
+  "sidebarcolor": #074040,
+  "home": #074040,
+  "black": #000000,
+);
+
+@import "bootstrap/scss/bootstrap";
